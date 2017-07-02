@@ -134,7 +134,8 @@ if ask_user == '2':
 
 elif ask_user == '1':               # If Choice is default user
     print 'You Choose to Continue with Default User \n'
-    print 'Default user is: \n' + str(spy_dict)
+    print 'Your Name is: \n'
+    print spy_dict.keys() + spy_dict.values()
     # infinite loop to keep on repeating the menu, until the user chooses to exit
     infinite_loop = True
     while infinite_loop:
